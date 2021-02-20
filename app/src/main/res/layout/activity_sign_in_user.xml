@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".SignInUserActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:background="#FFFFFF"
+        android:elevation="4dp"
+        app:title="개인회원 로그인"
+        app:titleTextColor="#988A8A"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize" />
+
+   <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:srcCompat="@drawable/logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/idEditText"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="아이디"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="비밀번호"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/signInButton"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonround"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center"
+            android:text="Sign in" />
+
+        <Button
+            android:id="@+id/signUpButton"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:textColor="#A6B7FF"
+            android:layout_gravity="center"
+            style="?android:attr/borderlessButtonStyle"
+            android:text="or Sign up" />
+
+        <Button
+            android:id="@+id/passwordResetButton"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#FFFFFF"
+            android:layout_marginTop="40dp"
+            android:textColor="#988A8A"
+            style="?android:attr/borderlessButtonStyle"
+            android:text="Password Reset" />
+    </LinearLayout>
+
+</LinearLayout>

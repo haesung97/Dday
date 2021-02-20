@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "163397859403",
+    "firebase_url": "https://dday-dfbc0.firebaseio.com",
+    "project_id": "dday-dfbc0",
+    "storage_bucket": "dday-dfbc0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163397859403:android:1cd166656cabd28363f5ce",
+        "android_client_info": {
+          "package_name": "com.example.dday"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "163397859403-4e3pp4po836seg0h19058cng95dmlhmu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dday",
+            "certificate_hash": "db1df7edab915fa71fa45aa2eda5dade3bb18afe"
+          }
+        },
+        {
+          "client_id": "163397859403-4i17q9vn126sr4rqqpn6eu28fbrsbbp8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlnG3-bGEM1lTQq_2pCqmJvK0RQFxsRVM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "163397859403-4i17q9vn126sr4rqqpn6eu28fbrsbbp8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
